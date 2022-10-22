@@ -171,40 +171,6 @@
         tools:layout_editor_absoluteY="500dp"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView3"
-        android:layout_width="44dp"
-        android:layout_height="45dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="278dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView2"
-        android:layout_width="44dp"
-        android:layout_height="45dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="200dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Amante de los perros"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="199dp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="El niño perdido"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="278dp" />
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
@@ -227,15 +193,52 @@
         android:layout_height="wrap_content"
         android:text="Donde recojo?"
         tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteY="199dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView2"
+        android:layout_width="44dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageFilterView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amante de los perros"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="172dp" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lo quiero de navidad"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="304dp" />
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El niño perdido"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView3"
+        android:layout_width="44dp"
+        android:layout_height="45dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="252dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/textView8"
@@ -249,31 +252,43 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="8dp"
         android:text="Luis Mancamoscas"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="120dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar8"
         android:layout_width="420dp"
         android:layout_height="86dp"
+        android:layout_marginBottom="34dp"
         android:background="@drawable/corner_radius"
         android:minHeight="?attr/actionBarSize"
         android:rotation="0"
         android:rotationX="0"
         android:rotationY="0"
         android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="-2dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterButton
         android:id="@+id/imageFilterButton18"
-        android:layout_width="40dp"
-        android:layout_height="36dp"
-        app:srcCompat="?attr/homeAsUpIndicator"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/mascotas_registradas"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar8"
+        app:srcCompat="?attr/homeAsUpIndicator" />
 
     <TextView
         android:id="@+id/id_titulo2"
@@ -288,7 +303,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/id_EmailU"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -296,16 +311,27 @@
         android:id="@+id/imageFilterView"
         android:layout_width="44dp"
         android:layout_height="45dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="121dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageFilterView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="1dp"
         android:text="HOLAAAAAAA!"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="147dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageFilterView"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageFilterView"
+        app:layout_constraintTop_toBottomOf="@+id/id_titulo2"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
