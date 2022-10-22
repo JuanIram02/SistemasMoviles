@@ -14,6 +14,18 @@
         android:theme="@style/Theme.SistemasMoviles"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityConfiguracion"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityChats"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPmascota"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPusuario"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

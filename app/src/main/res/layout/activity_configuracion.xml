@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_secondary95"
+    tools:context=".ActivityConfiguracion">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar12"
+        android:layout_width="410dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/corner_radius_background"
+        android:minHeight="?attr/actionBarSize"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar11" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar11"
+        android:layout_width="410dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/corner_radius_background"
+        android:minHeight="?attr/actionBarSize"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar13"
+        android:layout_width="410dp"
+        android:layout_height="82dp"
+        android:background="@drawable/corner_radius_background"
+        android:minHeight="?attr/actionBarSize"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton15"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton16"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lenguaje"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/color_Backgraound_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil de usuario"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/color_Backgraound_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colores"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/color_Backgraound_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton17"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="420dp"
+        android:layout_height="86dp"
+        android:background="@drawable/corner_radius"
+        android:minHeight="?attr/actionBarSize"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-14dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton14"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar10"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primario"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?android:attr/listChoiceIndicatorSingle"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton8"
+        android:layout_width="39dp"
+        android:layout_height="37dp"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <TextView
+        android:id="@+id/id_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="-15dp"
+        android:fontFamily="sans-serif"
+        android:text="Configuración"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/id_EmailU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
