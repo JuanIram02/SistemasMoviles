@@ -88,7 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="Lenguaje"
+        android:text="@string/lenguaje"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/color_Backgraound_light"
         android:textStyle="bold"
@@ -101,7 +101,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Perfil de usuario"
+        android:text="@string/perfil_de_usuario"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/color_Backgraound_light"
         android:textStyle="bold"
@@ -114,7 +114,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Colores"
+        android:text="@string/colores"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/color_Backgraound_light"
         android:textStyle="bold"
@@ -160,11 +160,12 @@
         android:layout_marginEnd="12dp"
         android:contentDescription="@string/mascotas_registradas"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
-        app:layout_constraintEnd_toStartOf="@+id/id_titulo"
+        app:layout_constraintEnd_toStartOf="@+id/Titulo_id"
         app:layout_constraintStart_toStartOf="@+id/toolbar5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.432"
-        app:srcCompat="?attr/homeAsUpIndicator" />
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="ImageContrastCheck" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar10"
@@ -187,7 +188,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageFilterButton8"
         app:layout_constraintStart_toEndOf="@+id/imageFilterButton6"
         app:layout_constraintTop_toTopOf="@+id/toolbar10"
-        app:srcCompat="?android:attr/listChoiceIndicatorSingle" />
+        app:srcCompat="?android:attr/listChoiceIndicatorSingle"
+        tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterButton
         android:id="@+id/imageFilterButton8"
@@ -200,7 +202,8 @@
         app:layout_constraintStart_toStartOf="@+id/toolbar10"
         app:layout_constraintTop_toTopOf="@+id/toolbar10"
         app:layout_constraintVertical_bias="0.625"
-        app:srcCompat="@android:drawable/ic_search_category_default" />
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterButton
         android:id="@+id/imageFilterButton6"
@@ -215,16 +218,17 @@
         app:layout_constraintStart_toStartOf="@+id/toolbar10"
         app:layout_constraintTop_toTopOf="@+id/toolbar10"
         app:layout_constraintVertical_bias="0.625"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
-        android:id="@+id/id_titulo"
+        android:id="@+id/Titulo_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="-15dp"
         android:fontFamily="sans-serif"
-        android:text="Configuración"
+        android:text="@string/config"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
