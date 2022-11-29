@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:background="@drawable/redondo_verde"
+        android:onClick="onClick"
         android:text="Register"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword6"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword6"
