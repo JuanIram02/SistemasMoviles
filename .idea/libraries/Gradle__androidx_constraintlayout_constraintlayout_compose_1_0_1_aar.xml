@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.constraintlayout:constraintlayout-compose:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/90890f5af335f89c3acf3e5a650f64e0/transformed/constraintlayout-compose-1.0.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/90890f5af335f89c3acf3e5a650f64e0/transformed/constraintlayout-compose-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/90890f5af335f89c3acf3e5a650f64e0/transformed/constraintlayout-compose-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bfdd252e024dd4d531504b457812cd6c/transformed/constraintlayout-compose-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1f19731c64c0d756c670f6b21eb7c4ca/transformed/constraintlayout-compose-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1f19731c64c0d756c670f6b21eb7c4ca/transformed/constraintlayout-compose-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1f19731c64c0d756c670f6b21eb7c4ca/transformed/constraintlayout-compose-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test.services:storage:1.4.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c3edacfb65979a3e0a2b2723b0ccfb94/transformed/storage-1.4.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c3edacfb65979a3e0a2b2723b0ccfb94/transformed/storage-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c3edacfb65979a3e0a2b2723b0ccfb94/transformed/storage-1.4.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1e768ded96f9edfc851abdd735f6b662/transformed/storage-1.4.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d759f4e470a6a214dca2f9a05a7852c5/transformed/storage-1.4.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d759f4e470a6a214dca2f9a05a7852c5/transformed/storage-1.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d759f4e470a6a214dca2f9a05a7852c5/transformed/storage-1.4.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.2/edb6438b0e7e21c66b22184eebdb13cd5167161a/storage-1.4.2-javadoc.jar!/" />
