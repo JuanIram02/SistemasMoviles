@@ -21,6 +21,7 @@ class ActivityLogin : AppCompatActivity() {
 
         txtUser=findViewById(R.id.TB_EmailLogin)
         txtPassword=findViewById(R.id.TB_PasswordLogin)
+        auth=FirebaseAuth.getInstance()
 
 
     }
@@ -43,14 +44,16 @@ class ActivityLogin : AppCompatActivity() {
                 .addOnCompleteListener(this){
                     task->
                     if(task.isSuccessful){
-                        //action()
+                        action()
                     }else{
                         Toast.makeText(this, "Error en la autenticación", Toast.LENGTH_SHORT).show()
                     }
                 }
+        }else{
+            Toast.makeText(this,"Llene todos los campos",Toast.LENGTH_SHORT).show()
         }
     }
     private fun action(){
-        startActivity(Intent(this,ActivityPublicaciones::class.java))
+        startActivity(Intent(this,MainActivity::class.java))
     }
 }
